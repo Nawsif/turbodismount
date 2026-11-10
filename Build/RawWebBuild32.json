@@ -1,0 +1,8 @@
+{
+  "TOTAL_MEMORY": 805306368,
+  "dataUrl": "RawWebBuild32.data.unityweb",
+  "wasmCodeUrl": "RawWebBuild32.wasm.code.unityweb",
+  "wasmFrameworkUrl": "RawWebBuild32.wasm.framework.unityweb",
+  "splashScreenStyle": "Dark",
+  "backgroundColor": "#222C36"
+}

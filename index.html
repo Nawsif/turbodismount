@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script>for (const name of ["ShowReminder", "SetLevelName", "SetLeaderboardEntries"]) {if (typeof window[name] !== "function") window[name] = () => {};}</script><link rel="stylesheet" href="web-display.css"><script src="web-display.js"></script><script src="web-parts.js"></script><script src="chunk-runtime.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | TurboDismount</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script type="application/x-unity-deferred" data-original-type="text/javascript" src="TemplateData/UnityProgress.js"></script>  
+    <script type="application/x-unity-deferred" data-original-type="text/javascript" src="Build/UnityLoader.js"></script>
+    <script type="application/x-unity-deferred" data-original-type="text/javascript">
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/RawWebBuild32.json", {onProgress: UnityProgress, Module: {postMainLoop: TurboDisplay.frame}});
+    </script>
+  </head>
+    <body>
+    <main id="game-shell">
+      <div id="gameContainer"></div>
+      <div id="game-controls">
+        <output id="fps-counter" aria-label="Game frame rate">-- FPS</output>
+        <button id="fullscreen-button" type="button">Fullscreen</button>
+      </div>
+    </main>
+  </body>
+</html>
